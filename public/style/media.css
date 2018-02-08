@@ -1,0 +1,41 @@
+@media (max-width: 600px) {
+    .parameters__table {
+        overflow-y: scroll;
+    }
+}
+
+@media (max-width: 500px) {
+    .hero .section__title {
+        font-size: 26px;
+    }
+    .features__item {
+        margin-bottom: 20px;
+    }
+    .features .item__title {
+        padding-top: 0;
+    }
+    p.capabilities__text {
+        font-size: 36px;
+    }
+    .curve__description {
+        padding-left: 20%;
+    }
+    .company__text {
+        font-size: 36px;
+    }
+}
+@media (max-width: 400px) {
+    p.capabilities__text {
+        font-size: 22px;
+    }
+    .parameters__title {
+        font-size: 20px;
+    }
+    .company__text {
+        font-size: 26px;
+    }
+    .item__title {
+        font-size: 16px;
+    }
+
+}
