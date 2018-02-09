@@ -1,41 +1,78 @@
-@media (max-width: 600px) {
-    .parameters__table {
-        overflow-y: scroll;
+@media (max-width: 767px) {
+    .company__text,
+    .capabilities__text,
+    .hero .section__title {
+        font-size: 36px;
     }
+    .hero__btn .text-left,
+    .hero__btn .text-right {
+        text-align: center;
+    }
+    .hero__btn .btn,
+    .use .btn.btn-blue,
+    .form .form-group,
+    .connect .section__title {
+        font-size: 16px;
+    }
+    section .item__title,
+    section .section__title,
+    .parameters__title,
+    .card__title {
+        font-size: 14px;
+    }
+
+    .use .btn,
+    #agree + label {
+        font-size:  12px;
+    }
+
+    .features__text {
+        padding-left: 0;
+        padding-right: 0;
+    }
+    section .features__text,
+    section .curve__text,
+    section .curve__description {
+        font-size: 11px;
+    }
+
+    section .item__text,
+    .parameters__table,
+    .card__text {
+        font-size: 10px;
+    }
+
+    .parameters__title {
+        margin-bottom: 20px;
+    }
+
+    .form {
+        padding: 0 30px;
+    }
+    footer {
+        padding-top: 15px;
+        background-color: #396185;
+    }
+    .footer__copyright {
+        padding: 0 10px;
+    }
+
 }
 
-@media (max-width: 500px) {
+@media (max-width: 400px) {
+    .company__text,
+    .capabilities__text,
     .hero .section__title {
-        font-size: 26px;
+        font-size: 32px;
     }
     .features__item {
         margin-bottom: 20px;
+        word-break: break-all;
     }
     .features .item__title {
         padding-top: 0;
     }
-    p.capabilities__text {
-        font-size: 36px;
+    .features__item.col-xs-6 {
+        width: 100%;
     }
-    .curve__description {
-        padding-left: 20%;
-    }
-    .company__text {
-        font-size: 36px;
-    }
-}
-@media (max-width: 400px) {
-    p.capabilities__text {
-        font-size: 22px;
-    }
-    .parameters__title {
-        font-size: 20px;
-    }
-    .company__text {
-        font-size: 26px;
-    }
-    .item__title {
-        font-size: 16px;
-    }
-
 }

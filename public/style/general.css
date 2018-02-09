@@ -122,7 +122,7 @@ body {
     display: inline-block;
     padding: 10px 20px;
     margin-bottom: 80px;
-    font-size: 46px;
+    font-size: 72px;
     font-weight: 600;
     text-transform: uppercase;
     background-color: #FEFEFE;
@@ -136,7 +136,7 @@ body {
     font-size: 36px;
     text-transform: capitalize;
     border-radius: 50px;
-    border-bottom: 2px solid #33608A;
+    border-bottom: 5px solid #33608A;
 }
 .hero__btn .btn {
     margin-bottom: 15px;
@@ -192,16 +192,11 @@ body {
     background-repeat: no-repeat;
 
 }
-.features .item__title {
-    /*font-size: 16px;*/
-    font-size: 24px;
-
-    text-transform: lowercase;
-    padding-top: 20px;
-}
 .item__title {
     color: #33608A;
     font-size: 32px;
+    text-transform: lowercase;
+    padding-top: 20px;
 }
 .item__text {
     font-size: 22px;
@@ -253,9 +248,12 @@ body {
     margin-bottom: 40px;
 }
 .curve__description {
+    display: inline-block;
     padding-top: 80px;
     padding-bottom: 40px;
-    padding-left: 40%;
+    padding-left: 0;
+
+    list-style: none;
 }
 .curve__text {
     text-align: justify;
@@ -267,7 +265,9 @@ body {
 .curve__img .img-responsive {
     display: inline-block;
 }
+
 .parameters__title {
+    padding:  0 15px;
     margin-bottom: 20px;
 }
 .parameters__table {
@@ -384,6 +384,23 @@ body {
     font-size: 46px;
     font-weight: bold;
 }
+/***COMPANY----------------------------------*/
+.how {
+    background-color: #727270;
+
+    margin-bottom: 50px;
+}
+.how__link {
+    display: block;
+    text-align: center;
+    padding: 30px;
+
+    color: white;
+    font-size: 26px;
+}
+.how__link:hover {
+    color: white;
+}
 /***CONNECT----------------------------------*/
 .connect {
     padding: 50px 0 70px 0;
@@ -393,7 +410,10 @@ body {
 .connect .section__title {
     margin-bottom: 30px;
 }
-.form-control {
+.form-control,
+.form-select {
+    display: block;
+    width: 100%;
     font-size: 16px;
     padding: 20px;
     background-color: #85DAF8;
@@ -414,13 +434,14 @@ body {
     display: inline-block;
     width: 49%;
 }
-.form .form-group-two:first-child {
-    margin-right: 1%;
-}
+
 .form-check .form-control,
 #agree {
     width: 30px;
     height: 30px;
+}
+#agree + label {
+    transform: translateY(-40%);
 }
 .form .btn-form {
     display: block;
@@ -428,7 +449,7 @@ body {
 
     background-color: #4B6A92;
     color: white;
-    font-size: 20px;
+    font-size: 22px;
     text-transform: uppercase;
     border: 1px solid #4B6A92;
 
@@ -477,6 +498,9 @@ body {
     text-align: center;
     font-size: 34px;
 }
+.connect__number-hidden:hover {
+    color: white;
+}
 /***FOOTER----------------------------------*/
 footer {
     background-color: #737370;
@@ -495,7 +519,7 @@ footer a {
     border: 1px solid white;
     padding: 20px;
     text-transform: uppercase;
-    font-size: 34px;
+    font-size: 24px;
     text-align: center;
     border-radius: 15px;
 }
@@ -504,10 +528,11 @@ footer a {
     text-align: center;
 }
 .footer__links ul {
-    display: inline-block;
+    list-style: none;
+    padding-left: 0;
 }
 .footer__links li {
     text-align: left;
-    margin-bottom: 15px;
+    margin-bottom: 10px;
     font-size: 26px;
 }
