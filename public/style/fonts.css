@@ -1,0 +1,15 @@
+@font-face {
+    font-family: "Panton SemiBold";
+    src: url("../fonts/panton/Panton SemiBold.otf");
+    url("../fonts/panton/Panton SemiBold.otf") format("otf");
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "Panton ExtraBold";
+    src: url("../fonts/panton/Panton ExtraBold.otf");
+    url("../fonts/panton/Panton ExtraBold.otf") format("otf");
+    font-style: normal;
+    font-weight: bold;
+}

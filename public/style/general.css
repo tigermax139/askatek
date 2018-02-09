@@ -15,7 +15,7 @@ body {
     margin: 0;
     padding: 0;
 
-    font-family: Arial, serif;
+    font-family: "Panton SemiBold", "Arial", serif;
     font-size: 16px;
     color: #000;
 
@@ -31,11 +31,16 @@ body {
     margin: -1px;
 }
 .section__title {
-    font-size: 1.375rem;
+    font-size: 32px;
     color: #33608A;
 }
 .section__text {
-    font-size: 1rem;
+    font-size: 24px;
+}
+.company__text,
+.capabilities__text,
+.hero .section__title {
+    font-family: "Panton ExtraBold", "Arial", serif;
 }
 /***HEADER-----------------------------------*/
 .header {
@@ -63,13 +68,13 @@ body {
     text-decoration: none;
 }
 .header .navbar__item-active {
-    color: #008DD2;
+
     text-decoration: none;
     cursor: text;
 }
 .navbar__item {
     padding: 10px 15px;
-    font-size: 16px;
+    font-size: 22px;
     text-decoration: underline;
     text-decoration-skip: none;
 }
@@ -79,9 +84,9 @@ body {
 .navbar-right .btn {
     transform: translateY(-25%);
 
+    font-size: 32px;
     color: #FEFEFE;
     padding: 5px 20px;
-    font-size: 16px;
     background-color: #33608A;
     border: 1px solid transparent;
 
@@ -128,7 +133,7 @@ body {
     padding: 10px 40px;
     background-color: white;
     color: #33608A;
-    font-size: 32px;
+    font-size: 36px;
     text-transform: capitalize;
     border-radius: 50px;
     border-bottom: 2px solid #33608A;
@@ -174,6 +179,7 @@ body {
     color: #2B2A29;
     text-align: justify;
     padding: 30px 10%;
+    font-size: 24px;
 }
 .img-rotate {
     padding: 70px;
@@ -187,13 +193,18 @@ body {
 
 }
 .features .item__title {
-    font-size: 16px;
+    /*font-size: 16px;*/
+    font-size: 24px;
 
     text-transform: lowercase;
     padding-top: 20px;
 }
 .item__title {
     color: #33608A;
+    font-size: 32px;
+}
+.item__text {
+    font-size: 22px;
 }
 .features {
     margin-bottom: 80px;
@@ -287,6 +298,7 @@ body {
 }
 .card__text {
     text-align: justify;
+    font-size: 22px;
 }
 .use .btn {
     font-size: 20px;
@@ -483,7 +495,7 @@ footer a {
     border: 1px solid white;
     padding: 20px;
     text-transform: uppercase;
-    font-size: 16px;
+    font-size: 34px;
     text-align: center;
     border-radius: 15px;
 }
@@ -497,4 +509,5 @@ footer a {
 .footer__links li {
     text-align: left;
     margin-bottom: 15px;
+    font-size: 26px;
 }
