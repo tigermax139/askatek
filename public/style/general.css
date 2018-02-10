@@ -81,10 +81,10 @@ body {
 .navbar__item:first-child {
     padding-left: 0;
 }
-.navbar-right .btn {
+.navbar .btn {
     transform: translateY(-25%);
 
-    font-size: 32px;
+    font-size: 26px;
     color: #FEFEFE;
     padding: 5px 20px;
     background-color: #33608A;
@@ -92,15 +92,21 @@ body {
 
     transition: 0.3s;
 }
-.navbar-right .btn:hover {
+.navbar .btn:hover {
     background-color: #FEFEFE;
     color: #33608A;
     border: 1px solid #33608A;
     transition: 0.5s;
 }
-.navbar-right .btn:active {
+.navbar .btn:active {
     transform: scale(1.05);
     transition: 0.3s;
+}
+.navbar-collapse {
+    padding: 0;
+}
+.header.container-fluid {
+    max-width: 1280px;
 }
 /***HERO------------------------------------*/
 .hero {
@@ -265,7 +271,6 @@ body {
 .curve__img .img-responsive {
     display: inline-block;
 }
-
 .parameters__title {
     padding:  0 15px;
     margin-bottom: 20px;

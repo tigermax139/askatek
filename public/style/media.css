@@ -1,3 +1,9 @@
+@media (max-width: 992px) {
+    .navbar .btn {
+        transform: none;
+        margin: 10px 0 10px -15px;
+    }
+}
 @media (max-width: 767px) {
     .company__text,
     .capabilities__text,
@@ -20,12 +26,10 @@
     .card__title {
         font-size: 14px;
     }
-
     .use .btn,
     #agree + label {
         font-size:  12px;
     }
-
     .features__text {
         padding-left: 0;
         padding-right: 0;
@@ -35,17 +39,14 @@
     section .curve__description {
         font-size: 11px;
     }
-
     section .item__text,
     .parameters__table,
     .card__text {
         font-size: 10px;
     }
-
     .parameters__title {
         margin-bottom: 20px;
     }
-
     .form {
         padding: 0 30px;
     }
@@ -57,8 +58,67 @@
         padding: 0 10px;
     }
 
-}
+    /***BURGER MENU****/
+    header {
+        background-color: #396185;
+    }
+    .header a {
+        color: white;
+    }
+    .navbar__item {
+        display: block;
+        padding-left: 0;
+        text-decoration: none;
+        border-top: 3px solid white ;
+    }
+    .logo.visible-xs {
+        margin-bottom: 20px;
+    }
 
+    .dropdown {
+        position: relative;
+    }
+    .dropdown::after {
+        display: block;
+        content: url("../img/arrow-down.png");
+
+        position: absolute;
+        right: 0;
+        top: 25%;
+    }
+    .dropdown-menu {
+        position: static;
+        width: 100%;
+        background-color: #396185;
+        color: white;
+        font-size: 18px;
+    }
+    .dropdown-menu li a {
+        color: white;
+    }
+    .nav .open>a, .nav .open>a:focus, .nav .open>a:hover {
+        background-color: inherit;
+        border-color: inherit;
+    }
+    .navbar-toggle {
+        margin: 0;
+        position: absolute;
+        top: -80px;
+        right: 0;
+    }
+    .nav.navbar-nav {
+        padding-right: 0;
+    }
+    .navbar-collapse {
+        padding: 0 15px;
+    }
+
+}
+@media (max-width: 500px) {
+    .features__item.col-xs-6 {
+        width: 100%;
+    }
+}
 @media (max-width: 400px) {
     .company__text,
     .capabilities__text,
@@ -72,7 +132,5 @@
     .features .item__title {
         padding-top: 0;
     }
-    .features__item.col-xs-6 {
-        width: 100%;
-    }
+
 }
