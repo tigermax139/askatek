@@ -145,13 +145,25 @@
         border: none;
     }
     /*Rotate burger icon*/
-    .navbar-toggle[aria-expanded="false"] img {
+    .icon-bar {
+        background-color: white;
+    }
+    .navbar-toggle[aria-expanded="false"] .icon-bar {
         transform: rotate(0deg);
         transition: 0.4s;
     }
-    .navbar-toggle[aria-expanded="true"] img {
+    .navbar-toggle[aria-expanded="true"] .icon-bar {
         transform: rotate(90deg);
         transition: 0.4s;
+    }
+    .navbar-toggle[aria-expanded="true"] .icon-bar-1 {
+        transform-origin: 10% -75%;
+    }
+    .navbar-toggle[aria-expanded="true"] .icon-bar-2 {
+        transform-origin: center center;
+    }
+    .navbar-toggle[aria-expanded="true"] .icon-bar-3 {
+        transform-origin: 90% 160%;
     }
 
 }
