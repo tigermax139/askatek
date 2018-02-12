@@ -102,7 +102,6 @@
     }
 
     .dropdown.open .dropdown-toggle::after {
-        content: url("../img/arrow-down-active.png");
         transform: rotate(180deg);
 
         transition: 0.4s;
@@ -120,7 +119,16 @@
     }
     .nav .open>a, .nav .open>a:focus, .nav .open>a:hover {
         background-color: inherit;
-        border-color: inherit;
+        color: white;
+        text-decoration: underline;
+
+        border-color: white;
+    }
+    .navbar-nav .open .dropdown-menu>li>a{
+        padding-left: 0;
+    }
+    .dropdown-menu {
+        padding-bottom: 20px;
     }
     .navbar-toggle {
         margin: 0;
@@ -135,6 +143,15 @@
         padding: 0 0 0 15px;
         box-shadow: none;
         border: none;
+    }
+    /*Rotate burger icon*/
+    .navbar-toggle[aria-expanded="false"] img {
+        transform: rotate(0deg);
+        transition: 0.4s;
+    }
+    .navbar-toggle[aria-expanded="true"] img {
+        transform: rotate(90deg);
+        transition: 0.4s;
     }
 
 }
