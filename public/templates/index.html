@@ -51,9 +51,16 @@
 
                     </button>
                     <div class="collapse navbar-collapse" id="menu">
-                        <div class="col-lg-8 col-md-9 col-xs-12  nav navbar-nav">
+                        <div class="col-lg-8 col-md-9 col-sm-9 col-xs-12  nav navbar-nav">
                             <a href="#" class="navbar__item navbar__item-active">Главная</a>
-                            <a href="#" class="navbar__item hidden-xs">Продукция</a>
+                            <div class="inline-menu-wrapper hidden-xs">
+                                <a href="#" class="navbar__item ">Продукция</a>
+                                <ul class="hidden-xs inline-menu ">
+                                    <li><a href="#" class="inline-menu__item">сварной настил</a></li>
+                                    <li><a href="#" class="inline-menu__item">пресованый настил</a></li>
+                                    <li><a href="#" class="inline-menu__item">лестницы и ступени</a></li>
+                                </ul>
+                            </div>
                             <div class="dropdown visible-xs">
                                 <a class="dropdown-toggle navbar__item" data-toggle="dropdown" href="#">
                                     Продукция
@@ -67,7 +74,7 @@
                             <a href="#" class="navbar__item">Информация</a>
                             <a href="#" class="navbar__item">Контакты</a>
                         </div>
-                        <div class="col-lg-4 col-md-3 hidden-xs ">
+                        <div class="col-lg-4 col-md-3 col-sm-3 hidden-xs ">
                             <button type="button" class="btn">
                                 Сделать заказ
                             </button>
@@ -77,7 +84,7 @@
         </nav>
     </div>
 </header>
-<div class="sticky-footer">
+<!--<div class="sticky-footer">-->
     <main>
         <section class="hero container-fluid">
             <div class="container">
@@ -645,7 +652,7 @@
             </div>
         </div>
     </footer>
-</div>
+<!--</div>-->
 <!--<script-->
         <!--src="http://code.jquery.com/jquery-2.2.4.min.js"-->
         <!--integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="-->

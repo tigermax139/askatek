@@ -123,6 +123,50 @@ body {
 .header.container-fluid {
     max-width: 1280px;
 }
+.inline-menu-wrapper {
+    display: inline-block;
+}
+.inline-menu-wrapper  .inline-menu {
+    display: none;
+    list-style: none;
+    padding: 10px;
+
+    background: white;
+    position: absolute;
+    left: 20%;
+    z-index: 2;
+}
+.inline-menu li {
+    padding: 5px;
+    position: relative;
+
+    transition: 0.3s;
+}
+.inline-menu li::before {
+    display: block;
+    content: "";
+    width: 0;
+    height: 3px;
+
+    background-color: #33608A;
+
+    position: absolute;
+    bottom: -5%;
+    left: 4%;
+
+    transition: 0.4s;
+}
+.inline-menu li:hover::before {
+    width: 50px;
+
+    transition: 0.4s;
+}
+.inline-menu-wrapper:hover  .inline-menu {
+    display: block;
+}
+.inline-menu:hover {
+    display: block;
+}
 /***HERO------------------------------------*/
 .hero {
     background-color: #2aabd2;
