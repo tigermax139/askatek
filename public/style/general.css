@@ -567,8 +567,10 @@ footer {
 /***USEFUL----------------------------------*/
 .useful .table td {
     text-align: center;
+    vertical-align: middle;
     border: 1px solid blue;
 }
+
 .cell-blue,
 .useful tr:nth-child(n+3) td:nth-child(3),
 .useful tr:nth-child(n+3) td:nth-child(4),
