@@ -585,6 +585,17 @@ footer {
 .useful tr:nth-child(n+3) td:nth-child(21){
     background-color: #E0E7F7;
 }
+/***USEFUL----------------------------------*/
+.size-stairs .table td {
+    text-align: center;
+    vertical-align: middle;
+    color: black;
+    border: 1px solid black;
+}
+.size-stairs tr:first-child {
+    background-color: #619AFF ;
+}
+
 /***FOOTER----------------------------------*/
 footer {
     background-color: #737370;
